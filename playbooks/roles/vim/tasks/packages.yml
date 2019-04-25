@@ -1,0 +1,10 @@
+---
+- name: Create Vim packages directory structure
+  file:
+    path: "{{ ansible_user_dir }}/.vim/pack/local_packages/{{ item }}"
+    state: directory
+    mode: 0755
+  with_items:
+    - start
+    - opt
+

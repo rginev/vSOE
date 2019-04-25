@@ -1,0 +1,6 @@
+---
+- name: Copy dotfiles in place
+  copy:
+    src: "dotfiles/"
+    dest: "{{ ansible_user_dir }}/"
+

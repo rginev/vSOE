@@ -1,0 +1,56 @@
+[user]
+	name = Rumen Ginev
+	email = rginev@gmail.com
+
+[core]
+	editor = vim
+
+[credential]
+	helper = cache --timeout 3600
+
+[color]
+        ui = true
+
+[color "branch"]
+
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "diff"]
+
+	meta = yellow bold
+	frag = magenta bold # line info
+	old = red # deletions
+	new = green # additions
+
+[color "status"]
+
+	added = yellow
+	changed = green
+        untracked = cyan
+
+[pull]
+        rebase = true
+
+[push]
+	default = simple
+
+[merge]
+        ff = no
+        commit = no
+
+[branch]
+        autosetuprebase = always
+
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	ps = push
+	pl = pull
+        lg1 = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+        lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
+        lg = !"git lg1"
+

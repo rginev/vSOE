@@ -1,0 +1,7 @@
+---
+pkgs_to_add:
+  - terminator # Requires python2 https://bugs.launchpad.net/ubuntu/+source/terminator/+bug/1621156
+pkgs_to_remove:
+pip_pkgs:
+  - ansible-lint # May need to link /usr/local/bin/ansible-lint to /usr/bin/ansible-lint
+
