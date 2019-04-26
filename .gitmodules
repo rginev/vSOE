@@ -19,9 +19,6 @@
 [submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-gnupg"]
 	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-gnupg
 	url = https://github.com/embear/vim-gnupg.git
-[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-markdown"]
-	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/jedi-vim"]
 	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
