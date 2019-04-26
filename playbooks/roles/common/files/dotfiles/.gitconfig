@@ -5,6 +5,12 @@
 [core]
 	editor = vim
 
+[http]
+	proxyAuthMethod = basic
+
+[https]
+	sslVerify = false
+
 [credential]
 	helper = cache --timeout 3600
 

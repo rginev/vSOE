@@ -1,3 +1,33 @@
 [submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/nerdtree"]
 	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-airline"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-fugitive"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-json"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-json
+	url = https://github.com/elzr/vim-json.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-packer"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-packer
+	url = https://github.com/hashivim/vim-packer.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-terraform"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-gnupg"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-gnupg
+	url = https://github.com/embear/vim-gnupg.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-markdown"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/jedi-vim"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/syntastic"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-flake8"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/vim-flake8
+	url = https://github.com/nvie/vim-flake8.git

@@ -3,4 +3,7 @@
   synchronize:
     src: "dotfiles/"
     dest: "{{ ansible_user_dir }}"
+    rsync_opts:
+      - "--exclude=.git"
+      - "--exclude=.swp"
 
