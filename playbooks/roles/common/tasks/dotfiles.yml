@@ -1,6 +1,6 @@
 ---
-- name: Copy dotfiles in place
-  copy:
+- name: Sync dotfiles in place
+  synchronize:
     src: "dotfiles/"
-    dest: "{{ ansible_user_dir }}/"
+    dest: "{{ ansible_user_dir }}"
 

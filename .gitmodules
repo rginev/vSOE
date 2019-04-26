@@ -1,0 +1,3 @@
+[submodule "playbooks/roles/vim/files/dot_vim/pack/local_packages/start/nerdtree"]
+	path = playbooks/roles/vim/files/dot_vim/pack/local_packages/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git

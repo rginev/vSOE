@@ -1,0 +1,9 @@
+ansible-lint
+ipython
+flake8
+pyflakes
+pylint
+PyYAML
+requests
+pytest
+python-dateutil

@@ -2,7 +2,7 @@
 - name: Install packages
   apt:
     name: '{{ pkgs_to_add }}'
-    update_cache: yes
+    update_cache: no
     state: present
   when: pkgs_to_add is defined and pkgs_to_add
 - name: Remove packages
@@ -13,7 +13,5 @@
 
 - name: Install PiP packages
   pip:
-    name: '{{ pip_pkgs }}'
-    state: present
-  when: pip_pkgs is defined and pip_pkgs
+    requirements: "{{ role_path  }}/files/pip_site_requirements.txt"
 

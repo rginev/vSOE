@@ -4,4 +4,7 @@
   roles:
     - { role: 'common', tags: 'common' }
     - { role: 'vim', tags: 'vim' }
-
+  environment:
+    http_proxy: "{{ ansible_env.http_proxy }}"
+    https_proxy: "{{ ansible_env.https_proxy }}"
+    no_proxy: "{{ ansible_env.no_proxy }}"

@@ -1,4 +1,4 @@
-colorscheme ron
+colorscheme torte
 
 " turn off auto adding comments on next line
 " so you can cut and paste reliably
@@ -38,4 +38,22 @@ map <C-n> :NERDTreeToggle<CR>
 " Paste on/off shortcuts
 map <C-v> :set paste<CR>
 map <C-p> :set nopaste<CR>
+
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
+
+" Enable folding with the spacebar
+nnoremap <space> za
+
+" Python Specific
+" PEP 8 indentation
+" au BufNewFile,BufRead *.py
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
 

@@ -1,10 +1,7 @@
 ---
-- name: Create Vim packages directory structure
-  file:
-    path: "{{ ansible_user_dir }}/.vim/pack/local_packages/{{ item }}"
-    state: directory
-    mode: 0755
-  with_items:
-    - start
-    - opt
+- name: Sync vim dotfiles in place
+  synchronize:
+    src: "dot_vim/"
+    dest: "{{ ansible_user_dir }}/.vim"
+    delete: yes
 
