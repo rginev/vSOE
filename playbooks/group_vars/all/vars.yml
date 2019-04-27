@@ -3,5 +3,6 @@ pkgs_to_add:
   - terminator # Requires python2 https://bugs.launchpad.net/ubuntu/+source/terminator/+bug/1621156
   - docker.io
   - curl
+  - jq
 pkgs_to_remove:
 

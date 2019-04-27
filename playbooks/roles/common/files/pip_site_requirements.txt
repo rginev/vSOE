@@ -1,9 +1,8 @@
 ansible-lint
+j2cli
 ipython
 flake8
 pyflakes
 pylint
-PyYAML
-requests
 pytest
 python-dateutil

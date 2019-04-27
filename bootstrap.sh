@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # The purpose here is to install automation technology of choice and then handover rest over to it
+# Scrpt must be executed with root privileges
+#
 
 set -o errexit
 
